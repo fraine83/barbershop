@@ -301,8 +301,10 @@ background-size: cover;
 /* SERVICES AND PRICES SECTION */
 
 .prices {
-    background-color: var(--primary-background-color);
-    background-image: url(../images/prices-bg.png);
+    max-width: 1600px;
+    margin: auto;
+    background-image: url(../images/prices-bg.jpg),
+    linear-gradient(#030303, #030303);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -319,7 +321,7 @@ background-size: cover;
 .prices-wrap {
     display: flex;
     flex-grow: 1;
-        padding: 152px 50px 108px;
+    padding: 152px 50px 108px;
 }
 
 .prices-list {
