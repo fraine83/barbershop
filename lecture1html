@@ -22,5 +22,10 @@
       <li class="item"><a href="" class="link">Podcasts</a></li>
       <li class="item"><a href="" class="link">Contacts</a></li>
     </ul>
+    <section>
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+    </section>
   </body>
 </html>

@@ -167,6 +167,7 @@ body {
     color: var(--primary-orange-color);
 }
 
+
 .header-address {
     margin-left: auto;
     color: var(--primary-white-color);
@@ -202,6 +203,12 @@ body {
 .hero-wrap {
     flex-grow: 1;
     padding: 272px 100px 208px;
+
+background-image: url(../images/hero-bg.jpg),
+linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2));
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .hero-list {}
@@ -215,6 +222,9 @@ body {
     font-weight: 600;
     line-height: normal;
     letter-spacing: 2.2px;
+}
+.hero-link: {
+    transform: rotate(-90deg);
 }
 
 .hero-link:hover,
@@ -292,6 +302,10 @@ body {
 
 .prices {
     background-color: var(--primary-background-color);
+    background-image: url(../images/prices-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .prices-top-text {
@@ -304,6 +318,8 @@ body {
 
 .prices-wrap {
     display: flex;
+    flex-grow: 1;
+        padding: 152px 50px 108px;
 }
 
 .prices-list {
